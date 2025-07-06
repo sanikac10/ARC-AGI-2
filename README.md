@@ -19,8 +19,8 @@
                 │   Harvest H₁     │──────────┐            │
                 └──────────────────┘          ▼            │
                          │           append to train       │
-               (Train + H₁) JSONL ◀──────────┘            │
-                         │  SFT resume ckpt‑0             │
+               (Train + H₁) JSONL ◀──────────┘             │
+                         │  SFT resume ckpt‑0              │
                          ▼                                 │
          ┌───────────────────────────┐                     │
          │  Policy π₁  (SFT‑full)    │―――――――――――――――――――――┘
